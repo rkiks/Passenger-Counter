@@ -1,0 +1,65 @@
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.container {
+    background-color: #FDE5D4;
+    border-radius: 40px;
+    margin: auto;
+    max-width: 400px;
+    border: 3px solid black;
+}
+
+body {
+    
+    background-image: url("image/train.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #001524;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #05861c;
+}
+
+button {
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+#increment-btn {
+    background: rgb(38, 134, 212);
+}
+
+#save-btn {
+    background: #D6CC99;
+}
+
+#save-el {
+    font-weight: bold;
+    font-size: 20px;
+}
